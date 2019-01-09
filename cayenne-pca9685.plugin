@@ -84,7 +84,7 @@ channel=13
 [PCA9685_CH14]
 enabled=true
 inherit=PCA9685_CH0
-channel=7
+channel=14
 
 [PCA9685_CH15]
 enabled=true
