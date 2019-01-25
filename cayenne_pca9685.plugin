@@ -1,6 +1,6 @@
 [PCA9685]
 enabled=true
-module=cayenne-pca9685
+module=cayenne_pca9685
 class=PCA9685
 read=read
 write=write
@@ -8,9 +8,9 @@ write=write
 [PCA9685_CH0]
 enabled=true
 channel=0
-module=cayenne-pca9685
+module=cayenne_pca9685
 class=AnalogOutput
-init_args={"plugin_id":"cayenne-pca9685:PCA9685"}
+init_args={"plugin_id":"cayenne_pca9685:PCA9685"}
 read=read
 read_args={"channel":$channel, "value_type":"float"}
 write=write
